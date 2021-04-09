@@ -1,6 +1,7 @@
 #include "Result.h"
 
 Result::Result(void* dict, Types type, unsigned executionTime) {
+	cout << "Constr" << endl;
 	this->dict = dict;
 	this->type = type;
 	this->executionTime = executionTime;
